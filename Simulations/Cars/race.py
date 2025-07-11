@@ -1,4 +1,7 @@
 from car import Car
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+import numpy as np
 
 car1 = Car(p=0, v=0, a=10)
 car2 = Car(p=0, v=10, a=10)
